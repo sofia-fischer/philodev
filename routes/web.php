@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,24 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/blog', function () {
+    $blogs = collect(glob(resource_path('views/blog/*.blade.php')))
+        ->map(function ($blog) {
+            $key = Str::of($blog)->before('.blade.php')->afterLast('/');
+            return [
+                'title' => (string) $key->replace('-', ' ')->title(),
+                'route' => (string) $key,
+            ];
+        })
+        ->toArray();
+
+    return view('blog', ['blogs' => $blogs]);
+})->name('blogIndex');
+
+
+Route::get('/blog/{blog}', function ($blog) {
+    return view('blog.' . $blog);
+})->name('blogShow');
+
+

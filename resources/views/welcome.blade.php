@@ -86,13 +86,13 @@
                     </svg>
                 </div>
                 <div class="py-6 text-white font-semibold text-xl mb-4">
-                    Personal
+                    Blog
                 </div>
 
                 <div class="text-bluegray-500 text-sm p-4 md:px-8 ">
                     How rare and beautiful it is, to just learn new things ... <br> <br>
 
-                    <a href="" class="text-blue-500">Learn more... </a>
+                    <a href="{{ route('blogIndex') }}" class="text-blue-500">Learn more... </a>
                 </div>
             </div>
         </div>
