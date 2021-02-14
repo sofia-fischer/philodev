@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+Route::get('/profession', function () {
+    return view('profession');
+})->name('profession');
+
 Route::get('/blog', function () {
     $blogs = collect(glob(resource_path('views/blog/*.blade.php')))
         ->map(function ($blog) {
