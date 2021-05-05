@@ -1,7 +1,10 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-    purge: [],
+    purge: [
+        './src/**/*.html',
+        './src/**/*.blade.php',
+    ],
     darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
@@ -16,7 +19,7 @@ module.exports = {
                     600: '#475569',
                     700: '#334155',
                     800: '#212f45',
-                    900: '#0b1221',
+                    900: '#212121',
                 },
             }
         },

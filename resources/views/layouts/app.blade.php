@@ -17,22 +17,17 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body class="font-sans antialiased">
-<div class="min-h-screen bg-black">
-@include('layouts.navigation')
-
-<!-- Page Heading -->
-    <header>
-        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-            {{ $header }}
+<div class="bg-black h-full">
+    <div id="root">
+        <div>
+            @include('layouts.navigation')
         </div>
-    </header>
 
-    <!-- Page Content -->
-    <main>
-        {{ $slot }}
-
-    </main>
-
+        <div class="main w-full h-screen overflow-y-scroll">
+            {{ $slot }}
+        </div>
+    </div>
 </div>
+
 </body>
 </html>
