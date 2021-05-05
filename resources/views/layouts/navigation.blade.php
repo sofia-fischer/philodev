@@ -26,6 +26,6 @@
     <div class="flex-grow"></div>
 
     <div class="text-pink-600">
-        <a href="{{ route('home',['#contact']) }}" class="mx-2 font-light">Contact</a>
+        <a href="{{ route('home',['#contact']) }}" class="mx-2 font-bold">Contact</a>
     </div>
 </nav>

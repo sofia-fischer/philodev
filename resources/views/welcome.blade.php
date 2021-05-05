@@ -131,7 +131,7 @@
             </div>
 
             <div class="w-full max-w-md py-10">
-                <img src="{{ asset('storage/skills.png') }}">
+                <img src="{{ asset('storage/skills.png') }}" alt="skill-word-cloud">
             </div>
         </div>
 
