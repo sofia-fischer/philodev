@@ -95,7 +95,7 @@
         <div class="flex-grow"></div>
 
         <div class="self-center md:self-end">
-            <a href="#skills">
+            <a href="#skills" aria-label="skills">
                 <div class="text-pink-600 p-10 flex">
                     <div class="px-6">Skills</div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -121,7 +121,7 @@
                 <span class="text-pink-600 font-semibold text-md">
                     Philodev
                 </span>
-                    <span class="text-gray-500">
+                    <span class="text-gray-300">
                     (/ˈfɪlədɪˈv/) is a lover of the process of
                     designing, implementing, testing, and maintaining advancement opportunities.
                     The term is a neologism from Greek philos (φίλος; "loving", as in philosophy)
@@ -138,7 +138,7 @@
         <div class="flex-grow"></div>
 
         <div class="self-center md:self-end">
-            <a href="#projects">
+            <a href="#projects" aria-label="projects">
                 <div class="text-pink-600 p-10 flex">
                     <div class="px-6">Projects</div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -175,7 +175,7 @@
         <div class="flex-grow"></div>
 
         <div class="self-center md:self-end">
-            <a href="#contact">
+            <a href="#contact" aria-label="contact">
                 <div class="text-pink-600 pr-10 flex">
                     <div class="px-6">Contact</div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -189,7 +189,7 @@
     <div class="h-screen text-white p-10 flex items-center flex-col md:flex-row items-center justify-evenly font-mono" id="contact">
         <div class="text-white w-full max-w-md">
             <h1 class="text-xl text-pink-600">Contact</h1>
-            <h3 class="">Sofia Fischer</h3>
+            <h2 class="">Sofia Fischer</h2>
             <h3 class="">Munich, Germany</h3>
             <br>
             <h3 class="text-pink-600">

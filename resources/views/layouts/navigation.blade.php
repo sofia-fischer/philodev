@@ -1,6 +1,6 @@
 <nav class="text-white bg-bluegray-900 w-full h-20 flex text-center px-4 items-center absolute top-0">
     <div class="w-16 h-16 my-auto">
-        <a href="{{ route('home') }}">
+        <a href="{{ route('home') }}" aria-label="home">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
                 <style>tspan {
                         white-space: pre
@@ -16,16 +16,16 @@
     <div class="flex-grow"></div>
 
     <div class="hover:text-pink-600">
-        <a href="{{ route('home',['#skills']) }}" class="mx-2 font-light">Skills</a>
+        <a href="{{ route('home',['#skills']) }}" aria-label="skills" class="mx-2 font-light">Skills</a>
     </div>
 
     <div class="hover:text-pink-600">
-        <a href="{{ route('home',['#projects']) }}" class="mx-2 font-light">Projects</a>
+        <a href="{{ route('home',['#projects']) }}" aria-label="projects" class="mx-2 font-light">Projects</a>
     </div>
 
     <div class="flex-grow"></div>
 
     <div class="text-pink-600">
-        <a href="{{ route('home',['#contact']) }}" class="mx-2 font-bold">Contact</a>
+        <a href="{{ route('home',['#contact']) }}" aria-label="contact" class="mx-2 font-bold">Contact</a>
     </div>
 </nav>
