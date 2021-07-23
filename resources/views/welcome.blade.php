@@ -88,7 +88,7 @@
         </h1>
         <a href="mailto:sofia@philodev.com">
             <button class="bg-pink-600 font-bold text-center px-6 py-2 rounded">
-                Contanct
+                Contact
             </button>
         </a>
 
