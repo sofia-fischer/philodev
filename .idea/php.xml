@@ -21,7 +21,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
@@ -110,6 +109,12 @@
       <path value="$PROJECT_DIR$/vendor/rollbar/rollbar-laravel" />
       <path value="$PROJECT_DIR$/vendor/rollbar/rollbar" />
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/vendor/league/config" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3">
