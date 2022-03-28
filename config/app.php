@@ -176,7 +176,6 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         // custom added
-        Rollbar\Laravel\RollbarServiceProvider::class,
     ],
 
     /*
