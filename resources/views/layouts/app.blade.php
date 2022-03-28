@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <meta name="description" content="Sofia Fischer, Full Stack Code Wizzard, Web and App Developer, and Agile Ethusiast"/>
+    <meta name="description" content="Sofia Fischer, Full Stack Code Wizard, Web and App Developer, and Agile Ethusiast"/>
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
