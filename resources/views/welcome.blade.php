@@ -106,7 +106,7 @@
         </div>
     </div>
 
-    <div class="h-screen text-white p-10 font-mono flex flex-col" id="skills">
+    <div class="text-white p-10 font-mono flex flex-col" id="skills">
         <div class="flex-grow"></div>
         <div class=" flex items-center flex-col md:flex-row justify-evenly ">
 
@@ -130,8 +130,37 @@
                 </div>
             </div>
 
-            <div class="w-full max-w-md py-10">
-                <img src="{{ asset('storage/skills.png') }}" alt="skill-word-cloud">
+            <div class="w-full max-w-md py-10 border-l-4 border-pink-600 pl-4 text-sm my-6">
+                <div class="py-2">
+                    <h1 class="text-pink-600 font-semibold text-lg">Education</h1>
+                    <p class="pb-4">
+                        <b>Informatics M. Sc.</b> and <b>Information Systems B. Sc.</b>, Technische Universität München,
+                                                  Germany
+                    </p>
+                </div>
+                <div class="py-2">
+                    <h1 class="text-pink-600 font-semibold text-lg">Experience</h1>
+                    <p class="pb-4">
+                        <b>PHP / Laravel</b> Including experience with
+                                             RESTfull APIs, common Patterns, Eloquent, Livewire, Blade, SQL, Testing,
+                                             Deployment.
+                    </p>
+                    <p class="pb-4">
+                        <b>HTML, JS / Angular</b> Ionic, TypeScript, Tailwind, HTML, CSS, Bootstrap.
+                    </p>
+                    <p class="pb-4">
+                        <b>Dart / Flutter</b> Development for IOS, Android and native OSX
+                    </p>
+                    <p class="pb-4">
+                        <b>Additionally</b> Docker, Git, Linux Apache, Time Series DB, IEEE 7000, Agile Development
+                    </p>
+                </div>
+                <div class="py-2">
+                    <h1 class="text-pink-600 font-semibold text-lg">Work Experience</h1>
+                    <p class="pb-4">
+                        First Development Job in 2015, first Laravel focused Job 2018, Freelancer since 2021
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -149,34 +178,55 @@
         </div>
     </div>
 
-    <div class="h-screen text-white p-10 flex flex-col" id="skills">
-        <div class="flex-grow"></div>
-        <div class="flex flex-wrap justify-evenly h-screen items-center" id="projects">
-            <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg m-4 w-50 h-50 overflow-hidden">
+    <div class="text-white p-10 flex flex-col font-mono" id="skills">
+        <div class="flex flex-wrap justify-evenly items-center pt-16" id="projects">
+            <div class=" rounded-lg m-4 overflow-hidden md:flex">
                 <a href="http://round-robin.philodev.one/">
-                    <svg viewBox="0 0 400 174" preserveAspectRatio="none" class="w-30 h-20">
-                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <g transform="translate(-2, 44)" fill="#151E2D" fill-rule="nonzero">
-                                <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.2"></path>
-                                <path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.3"></path>
-                                <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.4"></path>
-                            </g>
-                            <g transform="translate(-4, 76)" fill="#151E2D" fill-rule="nonzero">
-                                <path d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"></path>
-                            </g>
-                        </g>
-                    </svg>
-
-                    <div class="text-center mx-auto p-5 bg-gray-900 text-lg font-semibold ">Round Robin</div>
+                    <div style="background-image: url(https://www.round-robin.philodev.one/storage/images/round_robin_logo_white.png)"
+                        class="w-36 h-24 bg-cover bg-center"></div>
                 </a>
+
+                <div class="p-4">
+                    <a href="http://round-robin.philodev.one/">
+                        <h1 class="text-pink-600 font-semibold text-lg">Round Robin</h1>
+                        <p class="pb-4">
+                            <b>Private Project</b> Platform for round based games originated in the Corona Pandemic
+                                                   to compensate for the missed board game evenings.
+                        </p>
+                    </a>
+                    <p class="pb-4">
+                        <b>Laravel</b> Utilising Livewire for Websockets and Event Handling.
+                    </p>
+                    <p class="pb-4">
+                        <a href="https://github.com/sofia-fischer/round-robin" class="text-pink-600 font-semibold">
+                            The Code can be viewed on Github
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <div class=" rounded-lg m-4 overflow-hidden md:flex">
+                <a href="https://codyo.app/">
+                    <div style="background-image: url(https://codyo.app/wp-content/uploads/2020/01/codyo-app-logo.svg)"
+                        class="w-36 h-20 bg-cover bg-center"></div>
+                </a>
+
+                <div class="p-4">
+                    <a href="https://codyo.app/">
+                        <h1 class="text-pink-600 font-semibold text-lg">Codyo</h1>
+                        <p class="pb-4">
+                            <b>Customer Project</b> Personal and Business Carbon Footprint Tracker, featuring a
+                                                    Community Feed, Gamifcated CO2 Emission Tracker and Company wide
+                                                    Analytics.
+                        </p>
+                    </a>
+                </div>
             </div>
         </div>
 
-        <div class="flex-grow"></div>
-
         <div class="self-center md:self-end">
             <a href="#contact" aria-label="contact">
-                <div class="text-pink-600 pr-10 flex">
+                <div class="text-pink-600 pr-10 pt-10 flex">
                     <div class="px-6">Contact</div>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"/>
@@ -199,11 +249,11 @@
 
         <div class="w-full max-w-md">
             <div class="bg-fixed bg-no-repeat hidden md:block"
-                 style="background-image:url({{ asset('storage/background.jpg') }}); background-size: 25rem; background-position-x: right">
+                style="background-image:url({{ asset('storage/background.jpg') }}); background-size: 25rem; background-position-x: right">
                 <div class="h-64 bg-gradient-to-b from-black via-transparent to-black mx-auto"></div>
             </div>
             <div class="bg-fixed bg-no-repeat block md:hidden"
-                 style="background-image:url({{ asset('storage/background.jpg') }}); background-size: 25rem; background-position: center">
+                style="background-image:url({{ asset('storage/background.jpg') }}); background-size: 25rem; background-position: center">
                 <div class="h-64 bg-gradient-to-b from-black via-transparent to-black mx-auto"></div>
             </div>
         </div>
