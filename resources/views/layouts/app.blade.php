@@ -8,6 +8,7 @@
     <meta name="description" content="Sofia Fischer, Full Stack Code Wizard, Web and App Developer, and Agile Ethusiast"/>
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link rel="icon" type="image/png" href="{!! asset('storage/images/logo_black_circle.png') !!}"/>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
