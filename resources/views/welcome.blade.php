@@ -107,10 +107,9 @@
     </div>
 
     <div class="text-white p-10 font-mono flex flex-col" id="skills">
-        <div class="flex-grow"></div>
         <div class=" flex items-center flex-col md:flex-row justify-evenly ">
 
-            <div class="rounded-lg shadow-xl bg-bluegray-900 w-full max-w-md">
+            <div class="rounded-lg shadow-xl bg-bluegray-900 w-full max-w-md m-4">
                 <div class="border-b border-gray-800 px-2 py-3 flex items-center">
                     <div class="inline-block w-3 h-3 mr-1 rounded-full bg-red-500"></div>
                     <div class="inline-block w-3 h-3 mr-1 rounded-full bg-yellow-300"></div>
@@ -130,7 +129,7 @@
                 </div>
             </div>
 
-            <div class="w-full max-w-md py-10 border-l-4 border-pink-600 pl-4 text-sm my-6">
+            <div class="w-full max-w-md py-10 border-l-4 border-pink-600 pl-4 text-sm my-4">
                 <div class="py-2">
                     <h1 class="text-pink-600 font-semibold text-lg">Education</h1>
                     <p class="pb-4">
@@ -249,11 +248,13 @@
 
         <div class="w-full max-w-md">
             <div class="bg-fixed bg-no-repeat hidden md:block"
-                style="background-image:url({{ asset('storage/background.jpg') }}); background-size: 25rem; background-position-x: right">
+                style="background-image:url({{ asset('storage/images/background.jpeg') }});
+                    background-size: 25rem; background-position-x: right; background-position-y: bottom">
                 <div class="h-64 bg-gradient-to-b from-black via-transparent to-black mx-auto"></div>
             </div>
             <div class="bg-fixed bg-no-repeat block md:hidden"
-                style="background-image:url({{ asset('storage/background.jpg') }}); background-size: 25rem; background-position: center">
+                style="background-image:url({{ asset('storage/images/background.jpeg') }}); background-size: 25rem;
+                    background-position-x: center; background-position-y: bottom">
                 <div class="h-64 bg-gradient-to-b from-black via-transparent to-black mx-auto"></div>
             </div>
         </div>
