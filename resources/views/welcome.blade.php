@@ -232,8 +232,8 @@
                 </a>
 
                 <div class="p-4">
-                    <a href="https://standards.ieee.org/initiatives/artificial-intelligence-systems/">
-                        <h1 class="text-pink-600 font-semibold text-lg">Ethical Programming</h1>
+                    <a href="https://standards.ieee.org/ieee/7000/6781/">
+                        <h1 class="text-pink-600 font-semibold text-lg">Ethical Programming IEEE 7000</h1>
                         <p class="pb-4">
                             <b>Personal interest</b> IEEE Standards Project for Model Process for Addressing Ethical
                                                      Concerns During System Design outlines an approach for identifying
