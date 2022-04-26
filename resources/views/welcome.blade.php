@@ -221,6 +221,28 @@
                     </a>
                 </div>
             </div>
+
+            <p class="text-pink-600">Also a personal interest that I want to spread</p>
+            <div class=" rounded-lg m-4 overflow-hidden md:flex">
+                <a href="https://standards.ieee.org/initiatives/artificial-intelligence-systems/" target="_blank">
+                    <div class="w-36 h-20 pt-8">
+                        <img src="https://engagestandards.ieee.org/rs/211-FYL-955/images/ieee-ai-ethics-support-badge.png"
+                            alt="A Champion for IEEE AI Ethics" width="190px">
+                    </div>
+                </a>
+
+                <div class="p-4">
+                    <a href="https://standards.ieee.org/initiatives/artificial-intelligence-systems/">
+                        <h1 class="text-pink-600 font-semibold text-lg">Ethical Programming</h1>
+                        <p class="pb-4">
+                            <b>Personal interest</b> IEEE Standards Project for Model Process for Addressing Ethical
+                                                     Concerns During System Design outlines an approach for identifying
+                                                     and analyzing potential ethical issues in a system or software
+                                                     program from the onset of the effort.
+                        </p>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <div class="self-center md:self-end">
