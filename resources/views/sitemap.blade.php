@@ -11,14 +11,4 @@
         <lastmod>2022-04-28T18:02:46+00:00</lastmod>
     </url>
 
-    <url>
-        <loc>https://philodev.one/</loc>
-        <lastmod>2022-04-28T18:02:46+00:00</lastmod>
-    </url>
-
-    <url>
-        <loc>https://www.philodev.com/</loc>
-        <lastmod>2022-04-28T18:02:46+00:00</lastmod>
-    </url>
-
 </urlset>
