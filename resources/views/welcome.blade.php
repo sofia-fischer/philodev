@@ -25,7 +25,7 @@
                 }
 
                 #result::after {
-                    content: "Full Stack Code Wizzard";
+                    content: "Full Stack Code Wizard";
                     animation: content 25s infinite ease;
                 }
 
@@ -51,7 +51,7 @@
 
                 @keyframes content {
                     0%, 33% {
-                        content: "Full Stack Code Wizzard";
+                        content: "Full Stack Code Wizard";
                     }
                     34%, 66% {
                         content: "Agile Enthusiast";
