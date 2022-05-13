@@ -23,6 +23,10 @@
         <a href="{{ route('home',['#projects']) }}" aria-label="projects" class="mx-2 font-light">Projects</a>
     </div>
 
+    <div class="hover:text-pink-600">
+        <a href="https://www.blog.philodev.one/" aria-label="projects" class="mx-2 font-light">Blog</a>
+    </div>
+
     <div class="flex-grow"></div>
 
     <div class="text-pink-600">
